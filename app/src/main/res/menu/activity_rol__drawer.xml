@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_roles"
+            android:icon="@drawable/user"
+            android:title="@string/rol" />
+        <!--<item
+            android:id="@+id/menu_resumen"
+            android:icon="@drawable/resumen"
+            android:title="@string/resumen" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />-->
+    </group>
+
+    <item android:title="Configuración">
+        <menu>
+            <item
+                android:id="@+id/menu_salir"
+                android:icon="@drawable/action_exit"
+                android:title="@string/exit" />
+            <!--<item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />-->
+        </menu>
+    </item>
+
+</menu>
